@@ -117,6 +117,3 @@ reserva-salas/
 
 ---
 
-## 🧑‍💻 Autor
-
-Caio Ireno – Projeto educativo de arquitetura com Flask e microsserviços.
