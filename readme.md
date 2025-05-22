@@ -94,20 +94,7 @@ E que os endpoints de `GET /turmas/<id>` (e opcionalmente `GET /alunos/<id>`) es
 
 ---
 
-## 📦 Estrutura do Projeto
 
-```
-reserva-salas/
-│
-├── app.py
-├── reserva_model.py
-├── database.py
-├── routes.py
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## 🛠️ Futuras Melhorias
 
