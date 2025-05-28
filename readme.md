@@ -4,7 +4,7 @@ Este repositório contém a **API de Reserva de Salas**, desenvolvida com **Flas
 
 ## 🧩 Arquitetura
 
-A API de Reserva de Salas é um **microsserviço** que faz parte de um sistema maior de [School System](https://github.com/caio-ireno/School-System-Api)
+A API de Reserva de Salas é um **microsserviço** que faz parte de um sistema maior de [School System]((https://github.com/lucascurtolo/Projeto_API_Escola.git))
 , sendo responsável exclusivamente pelo gerenciamento das reservas de salas por turma.
 
 ⚠️ **Esta API depende de outra API de Gerenciamento Escolar (School System)**, que deve estar em execução e exposta localmente. A comunicação entre os serviços ocorre via **requisições HTTP REST**, para validar:
@@ -64,9 +64,6 @@ A aplicação estará disponível em:
 
 - `GET /reservas` – Lista todas as reservas
 - `POST /reservas` – Cria uma nova reserva
-- `GET /reservas/<id>` – Detalha uma reserva
-- `PUT /reservas/<id>` – Atualiza uma reserva
-- `DELETE /reservas/<id>` – Remove uma reserva
 
 ### Exemplo de corpo JSON para criação:
 
@@ -87,20 +84,9 @@ A aplicação estará disponível em:
 Certifique-se de que a **API de Gerenciamento Escolar** esteja rodando em:
 
 ```
-http://localhost:5000
+http://localhost:8000
 ```
 
-E que os endpoints de `GET /turmas/<id>` (e opcionalmente `GET /alunos/<id>`) estejam funcionando corretamente para que a validação seja feita com sucesso.
-
----
 
 
-
-## 🛠️ Futuras Melhorias
-
-- Validação de conflito de horário na sala
-- Integração via fila (RabbitMQ) com outros microsserviços
-- Autenticação de usuários
-
----
 
